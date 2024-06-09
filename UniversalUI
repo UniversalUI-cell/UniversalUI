@@ -16,9 +16,7 @@ UniversalSection:NewButton("Sirius Universal", "Universal", function()
 end)
 
 
-UniversalSection:NewButton("QP HUB (key:QP)", "Solara Script HUB 80+ Script blade ball bedwars da hood universal blox fruit arsenal Update Everyday",
-
-function()
+UniversalSection:NewButton("QP HUB (key:QP)", "Solara Script HUB 80+ Script blade ball bedwars da hood universal blox fruit arsenal Update Everyday", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/QP-Community/Roblox-Exploit/main/Loader.lua"))()
 end)
 
@@ -27,7 +25,7 @@ local Games = Window:NewTab("Games")
 local GamesSection = Games:NewSection("Games")
 
 
-GamesSection:NewButton("Arsenal", "Includes aimbot, No Recoil, Box Esp, Name Esp, Distance Esp, Tracer ESP and more!", function()
+GamesSection:NewButton("Arsenal", "Includes aimbot No Recoil Box Esp Name Esp Distance Esp Tracer ESP and more!", function()
    loadstring(game:lrm_load_script("41f7d88bf584cfbb05c0f507eda3a130")"))();
 end)
 
