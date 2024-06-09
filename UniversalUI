@@ -26,7 +26,7 @@ local GamesSection = Games:NewSection("Games")
 
 
 GamesSection:NewButton("Arsenal", "Arsenal script", function()
-   loadstring(game:lrm_load_script("41f7d88bf584cfbb05c0f507eda3a130")"))();
+   lrm_load_script("41f7d88bf584cfbb05c0f507eda3a130")
 end)
 
 
