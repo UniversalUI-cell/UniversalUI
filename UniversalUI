@@ -25,7 +25,12 @@ local Games = Window:NewTab("Games")
 local GamesSection = Games:NewSection("Games")
 
 
-GamesSection:NewButton("Fnaf Doom", "Animatronics ESP", function()
+GamesSection:NewButton("Arsenal", "Includes aimbot, No Recoil, Box Esp, Name Esp, Distance Esp, Tracer ESP and more!", function()
+   loadstring(game:lrm_load_script("41f7d88bf584cfbb05c0f507eda3a130")"))();
+end)
+
+
+GamesSection:NewButton("Fnaf Doom", "Animatronics ESP (NOTE!: only works in fnaf 2)", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/liigmabalz/Projetos_Lua/main/FNaF_Doom2.lua"))();
 end)
 
