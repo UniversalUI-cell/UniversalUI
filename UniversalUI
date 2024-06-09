@@ -1,0 +1,35 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Aris skipt", "DarkTheme")
+
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("Infinity yield", "launches infinite yield", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+
+MainSection:NewButton("Blade ball", "launches Good Blade ball scrip", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/BladeBallV3.lua"))()
+end)
+
+
+MainSection:NewButton("Sirius Universal", "Universal", function()
+   loadstring(game:HttpGet('https://sirius.menu/script'))()
+end)
+
+
+MainSection:NewButton("QP HUB (key:QP)", "Universal", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/QP-Community/Roblox-Exploit/main/Loader.lua"))()
+end)
+
+
+local Jorio = Window:NewTab("Jorio")
+local JorioSection = Jorio:NewSection("Jorio")
+
+
+JorioSection:NewButton("Fnaf Doom", "Animatronics ESP", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/liigmabalz/Projetos_Lua/main/FNaF_Doom2.lua"))();
+end)
