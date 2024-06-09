@@ -16,14 +16,7 @@ UniversalSection:NewButton("Sirius Universal", "Universal", function()
 end)
 
 
-UniversalSection:NewButton("QP HUB (key:QP)", "Solara Script HUB 80+ Script
-blade ball
-bedwars
-da hood
-universal
-blox fruit
-arsenal
-and etc
+UniversalSection:NewButton("QP HUB (key:QP)", "Solara Script HUB 80+ Script blade ball bedwars da hood universal blox fruit arsenal"
 
 Update Everyday", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/QP-Community/Roblox-Exploit/main/Loader.lua"))()
