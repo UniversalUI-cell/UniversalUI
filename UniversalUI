@@ -3,7 +3,7 @@ local Window = Library.CreateLib("UNIVERSAL UI", "DarkTheme")
 
 
 local Universal = Window:NewTab("Universal")
-local UniversalSection = Main:NewSection("Universal")
+local UniversalSection = Universal:NewSection("Universal")
 
 
 UniversalSection:NewButton("Infinity yield", "launches infinite yield", function()
