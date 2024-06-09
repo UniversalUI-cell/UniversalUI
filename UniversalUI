@@ -6,17 +6,17 @@ local Universal = Window:NewTab("Universal")
 local UniversalSection = Main:NewSection("Universal")
 
 
-MainSection:NewButton("Infinity yield", "launches infinite yield", function()
+UniversalSection:NewButton("Infinity yield", "launches infinite yield", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 
 
-MainSection:NewButton("Sirius Universal", "Universal", function()
+UniversalSection:NewButton("Sirius Universal", "Universal", function()
    loadstring(game:HttpGet('https://sirius.menu/script'))()
 end)
 
 
-MainSection:NewButton("QP HUB (key:QP)", "Universal", function()
+UniversalSection:NewButton("QP HUB (key:QP)", "Universal", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/QP-Community/Roblox-Exploit/main/Loader.lua"))()
 end)
 
@@ -25,11 +25,11 @@ local Games = Window:NewTab("Games")
 local GamesSection = Jorio:NewSection("Games")
 
 
-JorioSection:NewButton("Fnaf Doom", "Animatronics ESP", function()
+GamesSection:NewButton("Fnaf Doom", "Animatronics ESP", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/liigmabalz/Projetos_Lua/main/FNaF_Doom2.lua"))();
 end)
 
 
-MainSection:NewButton("Blade ball", "launches Blade ball script", function()
+GamesSection:NewButton("Blade ball", "launches Blade ball script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/BladeBallV3.lua"))()
 end)
