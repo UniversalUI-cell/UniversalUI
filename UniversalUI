@@ -22,7 +22,7 @@ end)
 
 
 local Games = Window:NewTab("Games")
-local GamesSection = Jorio:NewSection("Games")
+local GamesSection = Games:NewSection("Games")
 
 
 GamesSection:NewButton("Fnaf Doom", "Animatronics ESP", function()
