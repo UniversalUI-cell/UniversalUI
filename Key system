@@ -2,7 +2,41 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Player = game.Player.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, IntroEnabled = false})
 
-ScriptHub.lua = local Window = OrionLib:MakeWindow({Name = "Universal UI", HidePremium = false, SaveConfig = true, IntroEnabled = true, IntroText = "Universal UI"})
+ScriptHub.lua = local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("UNIVERSAL UI", "DarkTheme")
+
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("Infinity yield", "launches infinite yield", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+
+MainSection:NewButton("Blade ball", "launches Good Blade ball scrip", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/BladeBallV3.lua"))()
+end)
+
+
+MainSection:NewButton("Sirius Universal", "Universal", function()
+   loadstring(game:HttpGet('https://sirius.menu/script'))()
+end)
+
+
+MainSection:NewButton("QP HUB (key:QP)", "Universal", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/QP-Community/Roblox-Exploit/main/Loader.lua"))()
+end)
+
+
+local Jorio = Window:NewTab("Jorio")
+local JorioSection = Jorio:NewSection("Jorio")
+
+
+JorioSection:NewButton("Fnaf Doom", "Animatronics ESP", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/liigmabalz/Projetos_Lua/main/FNaF_Doom2.lua"))();
+end)
 
 OrionLib:MakeNotification({
 	Name = "Logged in!",
