@@ -2,6 +2,8 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Player = game.Player.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, IntroEnabled = false})
 
+ScriptHub.lua = local Window = OrionLib:MakeWindow({Name = "Universal UI", HidePremium = false, SaveConfig = true, IntroEnabled = true, IntroText = "Universal UI"})
+
 OrionLib:MakeNotification({
 	Name = "Logged in!",
 	Content = "You are logged in as "..Player.Name..".",
